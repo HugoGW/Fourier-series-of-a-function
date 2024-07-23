@@ -8,7 +8,7 @@ $\textbf{II - Fourier Series}$
 
 A Fourier series is a way to represent a function as the sum of simple sine and cosine waves. By increasing the number of terms in the series, the approximation becomes more accurate.
 
-For a function $f(x)$ defined on an interval $[−L,L]$, the Fourier series approximation with $n$ terms is given by:
+For a function $f(x)$ defined on an interval $[−L,L]$, the Fourier series approximation with $N$ terms is given by:
 
 $$\displaystyle f(x) \approx a_0 + \sum_{n=1}^N a_n \cos⁡ \big(\frac{nπx}{L} \big) + b_n \sin⁡ (\frac{nπx}{L} \big)$$
 
@@ -46,7 +46,7 @@ where :
 
 - fig, ax: These create a figure and an axis for plotting using matplotlib.
 
-and for each $i \in \{1,...,n\}$ we create a loop that iteratively adds each term of the Fourier series:
+and for each $i \in {1,...,n}$ we create a loop that iteratively adds each term of the Fourier series:
 
     for n in range(1, n_terms):
         # Calculation of mean squared error
