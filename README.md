@@ -10,7 +10,7 @@ A Fourier series is a way to represent a function as the sum of simple sine and 
 
 For a function $f(x)$ defined on an interval $[−L,L]$, the Fourier series approximation with $n$ terms is given by:
 
-$f(x) \approx a_0 + \sum_{n=1}^N a_n \cos⁡ \big(\frac{nπx}{L} \big) + b_n \sin⁡ (\frac{nπx}{L} \big)$
+$$\displaystyle f(x) \approx a_0 + \sum_{n=1}^N a_n \cos⁡ \big(\frac{nπx}{L} \big) + b_n \sin⁡ (\frac{nπx}{L} \big)$$
 
 where the coefficients $a_n$​ and $b_n$​ are calculated as:
 
@@ -40,7 +40,7 @@ and we calculate the Fourier coefficients and construct the series:
     fig, ax = plt.subplots(figsize=(8, 8))
 
 where :
-- a_0 is the zeroth Fourier coefficient, calculated using numerical integration (np.trapz). It represents the average value of the function over one period.
+- $a_0$ is the zeroth Fourier coefficient, calculated using numerical integration (np.trapz). It represents the average value of the function over one period.
   
 - fourier_series: Initializes the Fourier series with the zeroth term. This will be updated iteratively to include more terms.
 
