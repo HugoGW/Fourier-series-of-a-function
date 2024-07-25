@@ -16,7 +16,7 @@ where the coefficients $a_n$​ and $b_n$​ are calculated as:
 
 $\displaystyle a_n=\frac{1}{L} \int_{−L}^L \cos⁡ \big(\frac{nπx}{L} \big) dx$
 
-$b_n=\frac{1}{L} \int_{−L}^L \sin⁡ \big(\frac{nπx}{L} \big) dx$
+$\displaystyle b_n=\frac{1}{L} \int_{−L}^L \sin⁡ \big(\frac{nπx}{L} \big) dx$
 
 $\textbf{III - Code Explanation}$
 
