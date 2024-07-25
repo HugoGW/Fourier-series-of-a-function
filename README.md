@@ -14,7 +14,7 @@ $$\displaystyle f(x) \approx a_0 + \sum_{n=1}^N a_n \cos⁡ \big(\frac{nπx}{L} 
 
 where the coefficients $a_n$​ and $b_n$​ are calculated as:
 
-$a_n=\frac{1}{L} \int_{−L}^L \cos⁡ \big(\frac{nπx}{L} \big) dx$
+$\displaystyle a_n=\frac{1}{L} \int_{−L}^L \cos⁡ \big(\frac{nπx}{L} \big) dx$
 
 $b_n=\frac{1}{L} \int_{−L}^L \sin⁡ \big(\frac{nπx}{L} \big) dx$
 
